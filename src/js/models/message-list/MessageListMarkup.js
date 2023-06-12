@@ -7,7 +7,7 @@ import {
 
 export class MessageListMarkup {
   static getDownloadBtnHTML({ filename, src }) {
-    return `<a class="download_btn" download="${filename}" href="https://ahj-diploma-chaos-organizer.herokuapp.com/${src}"></a>`;
+    return `<a class="download_btn" download="${filename}" href="https://dip-8rx7.onrender.com/${src}"></a>`;
   }
 
   static getFileHTML(file, fileType) {
@@ -23,14 +23,14 @@ export class MessageListMarkup {
     switch (type) {
       case 'image':
         wrapper.innerHTML = `
-          <img class="image" data-filename="${filename}" src="https://ahj-diploma-chaos-organizer.herokuapp.com/${src}">`;
+          <img class="image" data-filename="${filename}" src="https://dip-8rx7.onrender.com/${src}">`;
         break;
 
       case 'video':
         wrapper.innerHTML = `
           <div class="video_wrapper">
             <video class="video" controls>
-              <source src="https://ahj-diploma-chaos-organizer.herokuapp.com/${src}">
+              <source src="https://dip-8rx7.onrender.com/${src}">
             </video>
           </div>`;
         break;
@@ -39,7 +39,7 @@ export class MessageListMarkup {
         wrapper.innerHTML = `
           <div class="audio_title">${filename}</div>
           <audio class="audio" controls>
-            <source src="https://ahj-diploma-chaos-organizer.herokuapp.com/${src}">
+            <source src="https://dip-8rx7.onrender.com/${src}">
           </audio>`;
     }
     const downloadBtn = this.getDownloadBtnHTML(file, fileType);
@@ -67,7 +67,7 @@ export class MessageListMarkup {
 
   static getStickerContentHTML({ src }) {
     return `
-      <img class="message_sticker" src="https://ahj-diploma-chaos-organizer.herokuapp.com/${src}">
+      <img class="message_sticker" src="https://dip-8rx7.onrender.com/${src}">
     `;
   }
 
