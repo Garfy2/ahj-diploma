@@ -32030,7 +32030,7 @@
         return apiService;
       }();
       
-      _defineProperty(apiService, "baseUrl", 'https://ahj-diploma-chaos-organizer.herokuapp.com');
+      _defineProperty(apiService, "baseUrl", 'https://dip-8rx7.onrender.com');
       
       _defineProperty(apiService, "username", 'test');
       // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.find.js
@@ -32113,7 +32113,7 @@
           var emoji = emojis.find(function (elem) {
             return elem.codePoint === codePoint;
           });
-          return emoji ? "<img class=\"emoji\" src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/emoji/".concat(emoji.src, "\">") : String.fromCodePoint(codePoint);
+          return emoji ? "<img class=\"emoji\" src=\"https://dip-8rx7.onrender.com/emoji/".concat(emoji.src, "\">") : String.fromCodePoint(codePoint);
         };
       
         return str.replaceAll(/(?:[#\*0-9\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23E9-\u23F3\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB-\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u261D\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692-\u2697\u2699\u269B\u269C\u26A0\u26A1\u26A7\u26AA\u26AB\u26B0\u26B1\u26BD\u26BE\u26C4\u26C5\u26C8\u26CE\u26CF\u26D1\u26D3\u26D4\u26E9\u26EA\u26F0-\u26F5\u26F7-\u26FA\u26FD\u2702\u2705\u2708-\u270D\u270F\u2712\u2714\u2716\u271D\u2721\u2728\u2733\u2734\u2744\u2747\u274C\u274E\u2753-\u2755\u2757\u2763\u2764\u2795-\u2797\u27A1\u27B0\u27BF\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B50\u2B55\u3030\u303D\u3297\u3299]|\uD83C[\uDC04\uDCCF\uDD70\uDD71\uDD7E\uDD7F\uDD8E\uDD91-\uDD9A\uDDE6-\uDDFF\uDE01\uDE02\uDE1A\uDE2F\uDE32-\uDE3A\uDE50\uDE51\uDF00-\uDF21\uDF24-\uDF93\uDF96\uDF97\uDF99-\uDF9B\uDF9E-\uDFF0\uDFF3-\uDFF5\uDFF7-\uDFFF]|\uD83D[\uDC00-\uDCFD\uDCFF-\uDD3D\uDD49-\uDD4E\uDD50-\uDD67\uDD6F\uDD70\uDD73-\uDD7A\uDD87\uDD8A-\uDD8D\uDD90\uDD95\uDD96\uDDA4\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA-\uDE4F\uDE80-\uDEC5\uDECB-\uDED2\uDED5-\uDED7\uDEE0-\uDEE5\uDEE9\uDEEB\uDEEC\uDEF0\uDEF3-\uDEFC\uDFE0-\uDFEB]|\uD83E[\uDD0C-\uDD3A\uDD3C-\uDD45\uDD47-\uDD78\uDD7A-\uDDCB\uDDCD-\uDDFF\uDE70-\uDE74\uDE78-\uDE7A\uDE80-\uDE86\uDE90-\uDEA8\uDEB0-\uDEB6\uDEC0-\uDEC2\uDED0-\uDED6])/g, function (match) {
@@ -32174,7 +32174,7 @@
           value: function getDownloadBtnHTML(_ref) {
             var filename = _ref.filename,
                 src = _ref.src;
-            return "<a class=\"download_btn\" download=\"".concat(filename, "\" href=\"https://ahj-diploma-chaos-organizer.herokuapp.com/").concat(src, "\"></a>");
+            return "<a class=\"download_btn\" download=\"".concat(filename, "\" href=\"https://dip-8rx7.onrender.com/").concat(src, "\"></a>");
           }
         }, {
           key: "getFileHTML",
@@ -32192,15 +32192,15 @@
       
             switch (type) {
               case 'image':
-                wrapper.innerHTML = "\n          <img class=\"image\" data-filename=\"".concat(filename, "\" src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/").concat(src, "\">");
+                wrapper.innerHTML = "\n          <img class=\"image\" data-filename=\"".concat(filename, "\" src=\"https://dip-8rx7.onrender.com/").concat(src, "\">");
                 break;
       
               case 'video':
-                wrapper.innerHTML = "\n          <div class=\"video_wrapper\">\n            <video class=\"video\" controls>\n              <source src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/".concat(src, "\">\n            </video>\n          </div>");
+                wrapper.innerHTML = "\n          <div class=\"video_wrapper\">\n            <video class=\"video\" controls>\n              <source src=\"https://dip-8rx7.onrender.com/".concat(src, "\">\n            </video>\n          </div>");
                 break;
       
               case 'audio':
-                wrapper.innerHTML = "\n          <div class=\"audio_title\">".concat(filename, "</div>\n          <audio class=\"audio\" controls>\n            <source src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/").concat(src, "\">\n          </audio>");
+                wrapper.innerHTML = "\n          <div class=\"audio_title\">".concat(filename, "</div>\n          <audio class=\"audio\" controls>\n            <source src=\"https://dip-8rx7.onrender.com/").concat(src, "\">\n          </audio>");
             }
       
             var downloadBtn = this.getDownloadBtnHTML(file, fileType);
@@ -32245,7 +32245,7 @@
           key: "getStickerContentHTML",
           value: function getStickerContentHTML(_ref2) {
             var src = _ref2.src;
-            return "\n      <img class=\"message_sticker\" src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/".concat(src, "\">\n    ");
+            return "\n      <img class=\"message_sticker\" src=\"https://dip-8rx7.onrender.com/".concat(src, "\">\n    ");
           }
         }, {
           key: "getTextContentHTML",
@@ -33092,7 +33092,7 @@
             try {
               for (_iterator.s(); !(_step = _iterator.n()).done;) {
                 var emoji = _step.value;
-                html += "\n      <li class=\"emoji_item\">\n        <img\n          class=\"emoji_item_img\"\n          alt=\"".concat(emoji.char, "\"\n          src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/emoji/").concat(emoji.src, "\">\n      </li>");
+                html += "\n      <li class=\"emoji_item\">\n        <img\n          class=\"emoji_item_img\"\n          alt=\"".concat(emoji.char, "\"\n          src=\"https://dip-8rx7.onrender.com/emoji/").concat(emoji.src, "\">\n      </li>");
               }
             } catch (err) {
               _iterator.e(err);
@@ -33261,7 +33261,7 @@
             try {
               for (_iterator.s(); !(_step = _iterator.n()).done;) {
                 var pack = _step.value;
-                stickerPackTabHTML += "\n      <button\n        class=\"stickerpack_tab\n          ".concat(this.activePack.pack === pack.pack ? ' active' : '', "\"\n        data-pack=\"").concat(pack.pack, "\">\n        <img class=\"stickerpack_preview\"\n          src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/").concat(pack.preview, "\">\n      </button>");
+                stickerPackTabHTML += "\n      <button\n        class=\"stickerpack_tab\n          ".concat(this.activePack.pack === pack.pack ? ' active' : '', "\"\n        data-pack=\"").concat(pack.pack, "\">\n        <img class=\"stickerpack_preview\"\n          src=\"https://dip-8rx7.onrender.com/").concat(pack.preview, "\">\n      </button>");
               }
             } catch (err) {
               _iterator.e(err);
@@ -33280,7 +33280,7 @@
             try {
               for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
                 var sticker = _step2.value;
-                var elemHtml = "\n        <img\n          class=\"sticker_item\"\n          src=\"https://ahj-diploma-chaos-organizer.herokuapp.com/".concat(sticker.src, "\"\n          data-id=\"").concat(sticker.id, "\"\n          data-src=").concat(sticker.src, ">");
+                var elemHtml = "\n        <img\n          class=\"sticker_item\"\n          src=\"https://dip-8rx7.onrender.com/".concat(sticker.src, "\"\n          data-id=\"").concat(sticker.id, "\"\n          data-src=").concat(sticker.src, ">");
                 stickerPack.innerHTML += elemHtml;
               }
             } catch (err) {
