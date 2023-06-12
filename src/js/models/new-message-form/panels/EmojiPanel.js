@@ -15,7 +15,7 @@ export class EmojiPanel extends SelectPanel {
         <img
           class="emoji_item_img"
           alt="${emoji.char}"
-          src="https://ahj-diploma-chaos-organizer.herokuapp.com/emoji/${emoji.src}">
+          src="https://dip-8rx7.onrender.com/emoji/${emoji.src}">
       </li>`;
     }
     this.list.innerHTML = html;

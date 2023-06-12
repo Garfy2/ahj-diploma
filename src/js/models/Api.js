@@ -1,5 +1,5 @@
 export class apiService {
-  static baseUrl = 'https://ahj-diploma-chaos-organizer.herokuapp.com';
+  static baseUrl = 'https://dip-8rx7.onrender.com';
 
   static username = 'test';
 
