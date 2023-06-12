@@ -1,7 +1,7 @@
-Внести:
+
 
 [![Build status](https://ci.appveyor.com/api/projects/status/u6edlutv6k191rq7?svg=true)](https://ci.appveyor.com/project/Garfy2/ahj-diploma)
-
+[Render](https://dip-8rx7.onrender.com)
 
 # Дипломное задание к курсу «Продвинутый JavaScript в браузере». Chaos Organizer
 
