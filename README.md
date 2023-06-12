@@ -1,12 +1,12 @@
 Внести:
 
-[![Build status](https://ci.appveyor.com/api/projects/status/rhap69xpolvk4pbv?svg=true)]()
+[![Build status](https://ci.appveyor.com/api/projects/status/u6edlutv6k191rq7?svg=true)](https://ci.appveyor.com/project/Garfy2/ahj-diploma)
+
 
 # Дипломное задание к курсу «Продвинутый JavaScript в браузере». Chaos Organizer
 
-[Heroku]().
 
-[Репозиторий с backend]().
+[Репозиторий с backend](https://github.com/Garfy2/ahj-diploma-back).
 
 Вёрстка и пользовательский опыт на удобоваримом уровне (для учебного проекта), со стороны бекенда есть какая-то базовая валидация, архитектура со стороны фронтенда не образцовая, но и не ужасная (о как). Акцент в первую очередь на аккуратности (в целом) и нормально работающем функционале. Адаптив не везде доработан. Критических багов не находил. Как-то так :)
 
